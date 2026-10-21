@@ -4,86 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Project Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <title>Hafsa | AI Project Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
-
-  <header>
-    <nav class="navbar">
-      <h2 class="logo">Hafsa<span>.</span></h2>
-      <button id="menu-toggle" aria-label="Toggle navigation"
-              aria-expanded="false">☰</button>
-      <ul id="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="home" class="hero">
-    <p class="tagline">AI & Data Science Student</p>
-    <h1>Hello, I'm <span>Hafsa</span></h1>
-    <p>I build technology projects using AI, data science,
-       and web development.</p>
-    <a class="button" href="#projects">View My Projects</a>
-  </section>
-
-  <section id="projects" class="section">
-    <h2>My Projects</h2>
-    <div class="project-container">
-
-      <article class="card">
-        <h3>🌊 Disaster Prediction</h3>
-        <p>A project concept for analyzing flood-risk data
-           and supporting disaster preparedness.</p>
-        <p class="technology">Python | Machine Learning</p>
-      </article>
-
-      <article class="card">
-        <h3>⚙️ AI for IoT</h3>
-        <p>A predictive-maintenance concept using sensor data
-           to identify possible machine problems.</p>
-        <p class="technology">AI | IoT | Prediction</p>
-      </article>
-
-      <article class="card">
-        <h3>📊 Student Data Analysis</h3>
-        <p>A project concept for studying student performance
-           and finding useful patterns in data.</p>
-        <p class="technology">Python | Data Analysis</p>
-      </article>
-
-    </div>
-  </section>
-
-  <section id="skills" class="section skills">
-    <h2>My Skills</h2>
-    <div class="skill-list">
-      <span>Python</span>
-      <span>Java</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>SQL</span>
-      <span>Machine Learning</span>
-      <span>Git & GitHub</span>
-    </div>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <p>Email: diallohajahafsa@gmail.com</p>
-    <p>GitHub: github.com/diallohajahafsa-coder</p>
-    <p>LinkedIn: linkedin.com/in/diallohajahafsa</p>
-  </section>
-
-  <footer>
-    <p>© <span id="year"></span> Hafsa | AI Project Portfolio</p>
-  </footer>
-
-</body>
-</html>
+<header class="site-header"><nav class="navbar container" aria-label="Main navigation">
+  <a class="logo" href="#home">Hafsa<span>.</span></a>
+  <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="nav-links" aria-expanded="false">☰</button>
+  <div class="nav-links" id="nav-links"><a href="#home">Home</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+</nav></header>
+<main>
+<section class="hero" id="home"><div class="container"><p class="eyebrow">AI &amp; Data Science Student</p><h1>Hello, I'm <span>Hafsa</span></h1><p class="hero-description">I explore artificial intelligence, data science, and web development by building practical projects.</p><a class="button" href="#projects">View My Projects ↓</a></div></section>
+<section class="section container" id="projects"><div class="section-heading"><p class="eyebrow">Selected work</p><h2>My Projects</h2><p>Explore my project ideas in AI and data science.</p></div><div class="project-grid">
+<article class="card"><div class="project-icon">🌊</div><h3>Disaster Prediction Platform</h3><p>A project to analyze flood-risk data and support disaster preparedness.</p><p class="tags">Python · Machine Learning · Data Analysis</p><a class="project-link" href="https://github.com/diallohajahafsa-coder" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a></article>
+<article class="card"><div class="project-icon">⚙️</div><h3>AI for IoT</h3><p>A predictive-maintenance concept using sensor data to identify possible equipment problems.</p><p class="tags">AI · IoT · Prediction</p><a class="project-link" href="https://github.com/diallohajahafsa-coder" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a></article>
+<article class="card"><div class="project-icon">📊</div><h3>Student Data Analysis</h3><p>A data-analysis concept for exploring student performance patterns.</p><p class="tags">Python · Pandas · Visualization</p><a class="project-link" href="https://github.com/diallohajahafsa-coder" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a></article>
+</div><p class="note">These links open your GitHub profile for now. Replace them with individual project repositories when available.</p></section>
+<section class="section skills-section" id="skills"><div class="container"><div class="section-heading"><p class="eyebrow">What I use</p><h2>My Skills</h2></div><div class="skill-list"><span>Python</span><span>Java</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>SQL Basics</span><span>Machine Learning</span><span>Git &amp; GitHub</span></div></div></section>
+<section class="section container" id="contact"><div class="contact-panel"><div><p class="eyebrow">Get in touch</p><h2>Contact Me</h2><p>For collaboration, learning, or project discussions, feel free to connect.</p></div><div class="contact-links"><a href="mailto:your.email@example.com">Email me ↗</a><a href="https://github.com/diallohajahafsa-coder" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div><p class="note">Replace the sample email and LinkedIn link with your own details.</p></section>
+</main><footer class="footer"><div class="container footer-inner"><p>© <span id="year"></span> Hafsa · AI Project Portfolio</p><a href="#home">Back to top ↑</a></div></footer>
+</body></html>
